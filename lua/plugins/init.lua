@@ -41,6 +41,7 @@ return {
         "eslint-lsp",
         "js-debug-adapter",
         "typescript-language-server",
+        "pyright",
       },
     },
   },
@@ -95,5 +96,4 @@ return {
       require("todo-comments").setup()
     end,
   }, -- To make a plugin not be loaded
-
 }
